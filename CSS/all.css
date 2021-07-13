@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: Roboto,sans-serif;
+    font-style: italic;
+}
+img{
+    display: block;
+}
+.img-m{
+    width: 32%;
+}
+.img-l{
+    width: 49%;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*,*:before,*:after{
+box-sizing:border-box;
+}
+
+.mb-1{
+    margin-bottom: 4px;
+}
+.mb-2{
+    margin-bottom: 8px;
+}
+.mb-3{
+    margin-bottom: 12px;
+}
+.mb-4{
+    margin-bottom: 16px;
+}
+.mb-5{
+    margin-bottom: 20px;
+}
+.mb-6{
+    margin-bottom: 24px;
+}
+.mb-7{
+    margin-bottom: 28px;
+}
+.mb-8{
+    margin-bottom: 32px;
+}
+.mb-9{
+    margin-bottom: 36px;
+}
+.mb-10{
+    margin-bottom: 40px;
+}
+.mb-11{
+    margin-bottom: 44px;
+}
+.mb-12{
+    margin-bottom: 48px;
+}
+.mb-13{
+    margin-bottom: 52px;
+}
+.mb-14{
+    margin-bottom: 56px;
+}
+.mb-16{
+    margin-bottom: 64px;
+}
+.mb-17{
+    margin-bottom: 68px;
+}
+.mb-23{
+    margin-bottom: 92px;
+}
+.text-secondary{
+    color: white;
+}
+.bg-dark{
+    background-color: black;
+}
+.fz-sm{
+    font-size: 20px;
+}
+h2{
+    font-size: 64px;
+    line-height: 1.75;
+    padding-top: 56px;
+    font-weight: bold;
+}
+
+.wrap{
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header{
+    height: 958px;
+    background: url("../images/banner.png") center;
+    background-size: cover;
+    font-size: 24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-social{
+    display: flex;
+    justify-content: space-between;
+}
+
+.person-social li a:hover{
+    opacity: 0.5;
+}
+
+h1{
+    font-size: 80px ;
+    line-height: 106px;
+    font-weight: bold;
+}
+
+.about{
+    text-align: center;
+    font-weight: bold;
+}
+
+.about img{
+    margin: 0 auto 20px auto;
+}
+
+.about-border{
+    margin: 24px auto 28px auto;
+    border: 1px solid black;
+    width: 384px;
+}
+
+.about .job li::before {
+    content: '';
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    background: #891818;
+    border-radius: 50%;
+    margin-right: 16px;
+    vertical-align: middle;
+}
+
+.brand{
+    text-align: center;
+    font-weight: bold;
+}
+
+.brand-firstImage{
+    margin: 0 auto 40px auto;
+}
+
+.brand-images{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 160px;
+}
+
+.works-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact a:hover{
+    color: brown;
+}
+
+.contactInfo{
+    padding-bottom: 64px;
+}
