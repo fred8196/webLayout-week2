@@ -115,9 +115,6 @@ box-sizing:border-box;
 .mb-17{
     margin-bottom: 68px;
 }
-.mb-23{
-    margin-bottom: 92px;
-}
 .text-secondary{
     color: white;
 }
@@ -134,15 +131,13 @@ h2{
     font-weight: bold;
 }
 
-.wrap{
-    width: 1920px;
-    margin: 0 auto;
+.ta-c{
+    text-align: center;
 }
 
 .container{
     width: 1200px;
     margin: 0 auto;
-    text-align: center;
 }
 
 .header{
@@ -164,7 +159,7 @@ h2{
     opacity: 0.5;
 }
 
-h1{
+.myName{
     font-size: 80px ;
     line-height: 106px;
     font-weight: bold;
@@ -181,8 +176,9 @@ h1{
 
 .about-border{
     margin: 24px auto 28px auto;
-    border: 1px solid black;
-    width: 384px;
+    max-width: 384px;
+    border-top: 1px solid #000;
+    border-bottom: 0;
 }
 
 .about .job li::before {
@@ -201,12 +197,13 @@ h1{
     font-weight: bold;
 }
 
-.brand-firstImage{
+.brand-images-first{
     margin: 0 auto 40px auto;
 }
 
 .brand-images{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 160px;
 }
@@ -215,6 +212,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-bottom: 144px;
 }
 
 .contact a:hover{
